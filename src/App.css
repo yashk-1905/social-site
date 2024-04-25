@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+.card-post .hashtag{
+    padding: 10px;
+}
+
+.card-post .hashTags{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.welcome-message{
+    margin-top: 40vh;
+}

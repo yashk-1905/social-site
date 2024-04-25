@@ -1,0 +1,7 @@
+.postList{
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
