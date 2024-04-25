@@ -51,9 +51,6 @@ const PostListContextProvider = ({children}) =>{
         dispatchPostAction(actionDeleteObj);
     }
 
-    // we are making a function to add all the initial posts using fetch api
-    // the above addPost function adds one by one post but through this function we can add them all at once after fetching from the api, 
-    //  or isko fir daal bhi denge hum context me taki koi bhi isko use kar paye
     const addInitialPosts = (posts) => {
         let acttionObj = {
             type: "ADD_INITIAL_POSTS",

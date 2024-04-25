@@ -1,8 +1,3 @@
-/**
- * postList me ye Welcome Message
- * use karna pada to isliye ab ye onClickFetch function bhi
- * vahin aayega
- */
 const WelcomeMessage = ({onClickFetch }) => {
     return <center>
         <h1 className="welcome-message"> 
@@ -13,5 +8,3 @@ const WelcomeMessage = ({onClickFetch }) => {
 }
 
 export default WelcomeMessage;
-
-//  ab ye welcome message mujhe PostList vale component me use karna hoga kyonki vahin par direct PostList ka use ho raha hai context se

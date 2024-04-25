@@ -13,8 +13,6 @@ import PostListContextProvider from './store/PostListStore';
 
 function App() {
   const [selectedTab, setSelectedTab] = useState("Home");
-  const [x, setX] =useState("Sourabh");
-  // let x = "Sourabh";
   return (
     <PostListContextProvider>
     <SectionWrap>

@@ -3,13 +3,6 @@ import SelectedTabContext from "../store/SelectedTabContext";
 
 
 const Sidebar = () => {
-        // let selects = useContext(SelectedTabContext);
-        // let {selectedTab, setSelectedTab} = selects.value;
-        /**
-         * bhai mere vo value hi hai jo aa rahi hai useContext karne par 
-         * alag se .value likhne ki jarurat nahi hai
-         */
-
         let {selectedTab, setSelectedTab} = useContext(SelectedTabContext);
         
         return (
